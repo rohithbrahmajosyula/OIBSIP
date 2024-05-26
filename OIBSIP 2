@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnH2N2S2e3+lZs5AVSzF5RLsA3xHgYYfU/7DX2Jjq2z+G5pWhMRW5Vpq8F5V8smXs5LZ2R1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="background">
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
+    <header>
+        <div class="intro">
+            <img src="image.jpeg" alt="MAIN NAME">
+            <h1>SUB NAME</h1>
+            <p>Web Developer</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="about">
+            <h2>About Me</h2>
+            <p>Welcome to my personal portfolio! I am a passionate web developer with a knack for creating elegant and responsive web designs. Explore my work and feel free to reach out if you'd like to collaborate.</p>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Information</h2>
+            <ul>
+                <li><i class="fas fa-envelope"></i> Email: ABC123@GMAIL.COM</li>
+                <li><i class="fas fa-phone"></i> Phone: +XXXXXXXXXXXX</li>
+                <li><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/demoaccount/" target="_blank">yourprofile</a></li>
+                </ul>
+        </section>
+
+        <section class="samples">
+            <h2>Portfolio Samples</h2>
+            <div class="sample-item">
+                <h3>Project 1</h3>
+                <p> Description</p>
+                <img src="image.jpg" alt="Certificate">
+            </div>
+            <div class="sample-item">
+                <h3>Project 2</h3>
+                <p>Description</p>
+            </div>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Web Development</li>
+            </ul>
+        </section>
+
+        <section class="resume">
+            <h2>Resume</h2>
+            <p>Download my resume: <a href="resume.pdf" target="_blank">Resume.pdf</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
